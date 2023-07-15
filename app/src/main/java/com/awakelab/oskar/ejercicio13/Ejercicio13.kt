@@ -22,6 +22,7 @@ fun main() {
 fun suma(v1: Double, v2: Float): Double = v1 + v2
 fun redondeo(v1: Double) = ceil(v1)
 
+
 fun muestraResultado(numero: Double): String {
     val format: NumberFormat = NumberFormat.getCurrencyInstance()
     format.setMaximumFractionDigits(2)
